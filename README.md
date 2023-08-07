@@ -1,5 +1,7 @@
 # googleurl
 
+sha256 = "a1bc96169d34dcc1406ffb750deef3bc8718bd1f9069a2878838e1bd905de989"
+
 This is a copy of [Chrome's URL parsing
 library](https://cs.chromium.org/chromium/src/url/), adapted to work with
 [Bazel](https://bazel.build/).  It is meant to be used by
