@@ -238,7 +238,7 @@ using CheckedContiguousConstIterator = CheckedContiguousIterator<const T>;
 namespace std {
 
 template <typename T>
-struct __is_cpp17_contiguous_iterator<::gurl_base::CheckedContiguousIterator<T>>
+struct __libcpp_is_contiguous_iterator<::gurl_base::CheckedContiguousIterator<T>>
     : true_type {};
 
 template <typename T>
